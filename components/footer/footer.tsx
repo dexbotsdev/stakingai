@@ -1,4 +1,5 @@
 import { fira_code } from "@/app/font";
+import Link from "next/link";
 
 export default function Footer() {
   return (
@@ -9,7 +10,10 @@ export default function Footer() {
       <div className="h-full px-8 flex flex-1 items-center justify-between">
         <div>
           <p className="text-white/40 text-[0.7em] ">
-            StakingAI 2023. All Rights Reserved.
+            StakingAI 2023. All Rights Reserved.{" "}
+            <a target="_blank" href={"https://dribbble.com/extej"}>
+              Extej UI UX Design Agency
+            </a>
           </p>
         </div>
         <div className="flex space-x-4 text-primary text-[0.7em]">
